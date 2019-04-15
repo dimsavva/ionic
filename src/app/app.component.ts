@@ -52,7 +52,7 @@ export class AppComponent {
       this.splashScreen.hide();
     }).catch(() => {});
   }
-
+ 
   goToEditProgile() {
     this.navCtrl.navigateForward('edit-profile');
   }
